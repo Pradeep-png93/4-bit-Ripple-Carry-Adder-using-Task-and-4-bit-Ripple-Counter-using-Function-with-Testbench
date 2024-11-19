@@ -6,8 +6,9 @@ To design and simulate a 4-bit Ripple Counter using Verilog HDL with a function 
 # Apparatus Required:
 Computer with Vivado or any Verilog simulation software.
 Verilog HDL compiler.
-```
+
 // Verilog Code
+```
 module RippleCarryAdder_4bit_tb;
 module RippleCarryAdder_4bit (
     input [3:0] a,        // 4-bit input A
@@ -16,7 +17,6 @@ module RippleCarryAdder_4bit (
     output [3:0] sum,     // 4-bit sum output
     output cout           // Carry output
 );
-```
     reg [3:0] sum_reg;
     reg carry_out;
     
@@ -56,7 +56,7 @@ endmodule
 ```
  
 
-# Test bench for Ripple carry adder
+ # Test bench for Ripple carry adder
 module RippleCarryAdder_4bit_tb;
 ```
     reg [3:0] a, b;
